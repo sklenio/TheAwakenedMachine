@@ -50260,6 +50260,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1517868222}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1355763692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78147,6 +78159,7 @@ GameObject:
   - component: {fileID: 2065130296}
   - component: {fileID: 2065130297}
   - component: {fileID: 2065130298}
+  - component: {fileID: 2065130299}
   m_Layer: 0
   m_Name: Collider warp
   m_TagString: platform
@@ -78209,6 +78222,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playSound: {fileID: 22241030}
+--- !u!114 &2065130299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065130292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66356b02a3c15e64683ca80bd95909ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseSound: {fileID: 1517868222}
 --- !u!1 &2068026297
 GameObject:
   m_ObjectHideFlags: 0

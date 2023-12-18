@@ -7906,9 +7906,9 @@ Transform:
   - {fileID: 30037137}
   - {fileID: 2022596523}
   - {fileID: 1372735262}
+  - {fileID: 1106462630174780356}
   - {fileID: 697851049}
   - {fileID: 1808700160}
-  - {fileID: 1106462630174780356}
   - {fileID: 1984341994}
   - {fileID: 216089230}
   - {fileID: 833226157}
@@ -26075,12 +26075,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697851048}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.3878, y: -11.5298, z: 36.73349}
+  m_LocalPosition: {x: -2.3878021, y: -11.529798, z: 36.73349}
   m_LocalScale: {x: 4.376, y: 18.059174, z: 217.46597}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 221090807}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &697851050
 MonoBehaviour:
@@ -50770,7 +50770,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1372735262}
   m_Layer: 0
-  m_Name: MainPlace
+  m_Name: MainPlace /interactable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56890,7 +56890,7 @@ AudioSource:
   Priority: 0
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 60
+  MaxDistance: 15
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -69060,13 +69060,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808700159}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45.4, y: -11.5298, z: 36.73349}
+  m_LocalPosition: {x: -45.4, y: -11.529798, z: 36.73349}
   m_LocalScale: {x: 4.376, y: 18.059174, z: 217.46597}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1116317063}
   m_Father: {fileID: 221090807}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1808700161
 MonoBehaviour:
@@ -75090,7 +75090,7 @@ BoxCollider:
   m_GameObject: {fileID: 1984341993}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -80628,7 +80628,7 @@ Transform:
   - {fileID: 1106462630748459447}
   - {fileID: 527760325}
   m_Father: {fileID: 221090807}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1106462630174780357
 MonoBehaviour:
